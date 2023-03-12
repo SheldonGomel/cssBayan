@@ -10,9 +10,9 @@
 .accordion{
     margin: .25em auto;
     background-color: coral;
-    border: solid 3px white;
-    border-radius: 10px;
-    padding: 5px 30px;
+    border: solid 0.2rem white;
+    border-radius: 0.5rem;
+    padding: 0.3rem 2rem;
 }
 
 
@@ -39,7 +39,7 @@
     visibility: hidden;
     transform: scale(1,0);
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     margin: 0 auto;
 }
 h1{
@@ -47,10 +47,10 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     font-weight: 400;
-    margin: 5px;
+    margin: 0.3rem;
 }
 span{
-    line-height: 40px;
+    line-height: 2.4rem;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
@@ -75,7 +75,7 @@ span{
 }
 .row{
     color: white; 
-    border-top: solid rgba(128, 128, 128, 0.32) 2px;
+    border-top: solid rgba(128, 128, 128, 0.32) 0.125rem;
     min-width: 300px;
 }
 .row:hover{
