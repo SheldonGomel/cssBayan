@@ -62,32 +62,36 @@ span{
     transform: scale(0,0);
     transition: all 0.5s;
 }
-.accordion:hover .close{
 
-    visibility: visible;
-    transform: scale(1,1);
-    transition: all 0.5s;
-}
-.row:hover .close{
-    display: inline-block;
-    transform: rotate(45deg);
-    transition: all 0.5s;
-}
 .row{
     color: white; 
     border-top: solid rgba(128, 128, 128, 0.32) 0.125rem;
     min-width: 300px;
 }
-.row:hover{
-    color: rgb(255, 249, 78);
+@media (hover: hover){
+    .accordion:hover .close{
+
+        visibility: visible;
+        transform: scale(1,1);
+        transition: all 0.5s;
+    }
+    .row:hover .close{
+        display: inline-block;
+        transform: rotate(45deg);
+        transition: all 0.5s;
+    }
+    .row:hover{
+        color: rgb(255, 249, 78);
+    }
+    .row:hover .img{
+        visibility: visible;
+        transform: scale(1,1);
+        width: 220px;
+        height: 220px;
+        transition: all 0.5s;
+    }    
 }
-.row:hover .img{
-    visibility: visible;
-    transform: scale(1,1);
-    width: 220px;
-    height: 220px;
-    transition: all 0.5s;
-}
+
 .row_container{
     display: flex;
     justify-content: space-between;
