@@ -34,7 +34,7 @@
 .img{
     background-repeat: no-repeat;
     background-size: cover;
-    width: 220px;
+    width: 80%;
     height: 0;
     visibility: hidden;
     transform: scale(1,0);
@@ -49,6 +49,7 @@ h1{
     font-size: 2rem;
     font-weight: 400;
     margin: 0.3rem;
+    cursor: default;
 }
 img{
     display: inline;
@@ -78,7 +79,7 @@ span{
 .row{
     color: white; 
     border-top: solid rgba(128, 128, 128, 0.32) 0.125rem;
-    min-width: 300px;
+    min-width: 19rem;
     cursor:pointer;
 }
 @media (hover: hover){
@@ -100,8 +101,8 @@ span{
     .row:hover .img{
         visibility: visible;
         transform: scale(1,1);
-        width: 220px;
-        height: 220px;
+        width: 14rem;
+        height: 14rem;
         transition: all 0.5s;
     }    
 }
@@ -116,8 +117,8 @@ span{
 input:checked + div .img {
     visibility: visible;
     transform: scale(1,1);
-    width: 220px;
-    height: 220px;
+    width: 14rem;
+    height: 14rem;
   }
 
   input:checked + div .row_container {

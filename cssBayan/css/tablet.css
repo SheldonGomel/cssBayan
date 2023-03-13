@@ -7,7 +7,7 @@
         font-size: .8rem;
     }
     .row{
-        min-width: 240px;
+        min-width: 15rem;
     }
 
 }
@@ -21,7 +21,7 @@
         font-size: .7rem;
     }
     .row{
-        min-width: 200px;
+        min-width: 12.5rem;
     }
 
 }
