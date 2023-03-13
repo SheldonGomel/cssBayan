@@ -80,6 +80,8 @@ span{
     color: white; 
     border-top: solid rgba(128, 128, 128, 0.32) 0.125rem;
     min-width: 19rem;
+}
+label>div{
     cursor:pointer;
 }
 @media (hover: hover){
