@@ -81,9 +81,13 @@ span{
     border-top: solid rgba(128, 128, 128, 0.32) 0.125rem;
     min-width: 19rem;
 }
-label>div{
+label>div:hover{
     cursor:pointer;
 }
+label>div:active,label>div *:active{
+    cursor:wait;
+}
+
 @media (hover: hover){
     .accordion:hover .close{
 
@@ -137,5 +141,6 @@ input:checked + label> div .img {
 
     }
 input{
-    display: none;
+display: block;
+height: 0;
 }
