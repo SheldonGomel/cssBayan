@@ -21,7 +21,7 @@
         font-size: .7rem;
     }
     .row{
-        min-width: 12.5rem;
+        min-width: 14rem;
     }
 
 }
@@ -33,7 +33,7 @@
         transform: scale(1,1);
         transition: all 0.5s;
     }
-    input:checked + div .row_container .close {
+    input:checked + label> div .row_container .close {
         transform: rotate(45deg) scale(1,1);
         transition: all 0.5s;
     

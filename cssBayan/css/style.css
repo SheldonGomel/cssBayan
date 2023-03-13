@@ -116,22 +116,22 @@ label>div{
 }
 
 
-input:checked + div .img {
+input:checked + label> div .img {
     visibility: visible;
     transform: scale(1,1);
     width: 14rem;
     height: 14rem;
   }
 
-  input:checked + div .row_container {
+  input:checked +label> div .row_container {
   color: rgb(255, 249, 78);
   }
-  input:checked + div .row_container .close {
+  input:checked +label > div .row_container .close {
     transform: rotate(45deg) scale(0,0);
     transition: all 0.5s;
 
     }
-  .accordion:hover input:checked + div .row_container .close {
+  .accordion:hover input:checked + label> div .row_container .close {
     transform: rotate(45deg) scale(1,1);
     transition: all 0.5s;
 
