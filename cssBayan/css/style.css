@@ -81,19 +81,16 @@ span{
     border-top: solid rgba(128, 128, 128, 0.32) 0.125rem;
     min-width: 19rem;
 }
-label>div:hover{
-    cursor:pointer;
-}
-label>div:active,label>div *:active{
-    cursor:wait;
-}
+
 
 @media (hover: hover){
     .accordion:hover .close{
-
         visibility: visible;
         transform: scale(1,1);
         transition: all 0.5s;
+    }
+    .accordion:hover .row{
+        color: rgb(255, 249, 78);
     }
     .row:hover .close{
         display: inline-block;
@@ -127,8 +124,9 @@ input:checked + label> div .img {
     height: 14rem;
   }
 
-  input:checked +label> div .row_container {
+  input:checked +label>div .row_container {
   color: rgb(255, 249, 78);
+  transition: all 0.5s;
   }
   input:checked +label > div .row_container .close {
     transform: rotate(45deg) scale(0,0);
@@ -143,4 +141,22 @@ input:checked + label> div .img {
 input{
 display: block;
 height: 0;
+}
+label>div:hover{
+    cursor:pointer;
+}/*
+label>div:active,label>div *:active{
+    cursor:wait;
+    filter: blur(1px);
+    color: white;
+}*/
+
+
+label>div:active *,
+input:checked + label>div:active *
+{
+    cursor:wait;
+    filter: blur(1px);
+    color: white;
+    transition: all 0.5s;
 }
